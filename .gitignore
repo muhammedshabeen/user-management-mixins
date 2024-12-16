@@ -36,12 +36,12 @@ coverage.xml
 *.cover
 *.py,cover
 
-# Django migrations (optional, if you prefer not to track migrations in version control)
-# Ignore the migrations folder
-**/migrations/
+# Ignore all files in migrations folder
+**/migrations/*
 
-# Include only the __init__.py files in migrations folders
+# Do not ignore __init__.py files in migrations folders
 !**/migrations/__init__.py
+
 
 # IDEs and editors
 .idea/
